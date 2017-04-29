@@ -1,0 +1,9 @@
+[package]
+name = "ray"
+version = "0.1.0"
+authors = ["Jose Rodrigues <jyrodrigues@gmail.com>"]
+
+[dependencies]
+image = "0.13.0"
+serde = "1.0.2"
+serde_derive = "1.0.2"

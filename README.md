@@ -1,6 +1,6 @@
-#A raytracer written in Rust
+# A raytracer written in Rust
 
-This is my first project with rust. I'm kind of following [this](nam://bheisler.github.io/post/writing-raytracer-in-rust/) series of blog posts. Brook Heisler also published the whole source code on [his GitHub](https://github.com/bheisler/raytracer).
+This is my first project with rust. I'm kind of following [this](https://bheisler.github.io/post/writing-raytracer-in-rust/) series of blog posts. Brook Heisler also published the whole source code on [his GitHub](https://github.com/bheisler/raytracer).
 
 I also plan on creating a blog to this repository explaining each step of the way. For now the steps will be listed here as bullet points.
 

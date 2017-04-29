@@ -15,7 +15,7 @@ impl Vector3 {
     }
 
     pub fn zero() -> Vector3 {
-        Vector3::from_one(0.0)
+        Vector3::from_one(0_f64)
     }
 
     pub fn norm(&self) -> f64 {
@@ -117,13 +117,13 @@ fn norm_test() {
 #[test]
 fn length_test() {
     let v = Vector3::from_one(1.0);
-    assert_eq!(v.length(), 3.0f64.sqrt());
+    assert_eq!(v.length(), 3_f64.sqrt());
 }
 
 #[test]
 fn normalize_test() {
     let v = Vector3::from_one(1.0);
-    assert_eq!(v.normalize().length(), 1.0f64);
+    assert_eq!(v.normalize().length(), 1_f64);
 }
 
 #[test]
@@ -165,5 +165,5 @@ fn mul_test() {
         z: 3.0,
     };
 
-    assert_eq!((2f64 * v).length(), v.length() * 2f64);
+    assert_eq!((2_f64 * v).length(), v.length() * 2_f64);
 }
